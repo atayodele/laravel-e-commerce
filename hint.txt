@@ -1,0 +1,8 @@
+$ php artisan make:model Model/Product -a
+$ php artisan make:model Model/Review -a
+
+TO Seed into DB => goto browser look for faker library, select d github to see d documentation
+    check  factories on how to seed product and reviews
+    Also, goto to seed folder to seed ur model datas
+    Goto terminal to seed using this command
+        php artisan db:seed
